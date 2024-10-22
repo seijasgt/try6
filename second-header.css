@@ -1,0 +1,41 @@
+
+.second-header{
+  display: flex;
+  flex-direction: row;
+}
+.second-header-s1{
+  width: 230px;
+  
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-header-s2{
+  flex-grow: 1;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hi-text{
+  font-size: 30px;
+  font-weight: 500;
+}
+.scroll-text{
+  color: rgba(0,0,0, 0.5);
+}
+
+.circular-pfp{
+  width: 150px;
+  height: 150px;
+  border-radius: 400px;
+  object-fit: cover;
+  transition: all 0.2s;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px;
+}
+.circular-pfp:hover{
+  width: 160px;
+  height: 160px;
+}

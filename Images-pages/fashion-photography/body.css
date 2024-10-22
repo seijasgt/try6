@@ -1,0 +1,35 @@
+.first-row{
+  max-width: 100vw;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.first-row img{
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.second-row{
+  max-width: 100vw;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  justify-content: space-between;
+}
+
+.second-row img{
+  max-width: 50%;
+}
+
+.bottom-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  }

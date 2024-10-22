@@ -1,0 +1,35 @@
+.first-row{
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  max-height: 700px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.first-row img{
+  max-width: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.description-maara{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.bottom-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  }

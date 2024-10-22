@@ -1,0 +1,126 @@
+.contact-container-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.contact-text-body{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.section-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.section-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+.text-box{
+  width: 500px;
+  height: 30px;
+  border-width: 1px;
+  border-color: rgba(219, 219, 219, 0.8);
+  font-size: 12px;
+  font-family: SUSE;
+  border-radius: 5px;
+  padding: 5px 0px 5px 10px;
+  border: solid;
+}
+
+.text-box-email{
+  width: 500px;
+  height: 30px;
+  border-width: 1px;
+  border-color: rgba(219, 219, 219, 0.1);
+  font-size: 12px;
+  font-family: SUSE;
+  border-radius: 5px;
+  padding: 5px 0px 5px 10px;
+  border: solid;
+}
+
+.top-text{
+  margin-right: 460px;
+  font-weight: 600;
+}
+
+.top-text-email{
+  margin-right: 413px;
+  font-weight: 600;
+}
+
+.top-text-message{
+  margin-right: 440px;
+  font-weight: 600;
+  
+  
+}
+
+.text-box-message{
+  width: 500px;
+  height: 200px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgba(25, 25, 25, 0.8);
+  font-size: 12px;
+  font-family: SUSE;
+  border-radius: 5px;
+  padding: 11px 0px 5px 10px;
+ 
+}
+
+.text-box-message::placeholder{
+  position: fixed;
+  top: 12px;
+}
+
+.sumbit-button-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sumbit-button{
+  padding: 12px 15px 12px 15px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-family: SUSE;
+  margin-right: 440px;
+  box-shadow: 2px 2px 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sumbit-button:hover{
+  padding: 13px 16px 13px 16px;
+}
+
+.bottom-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  }
